@@ -27,7 +27,7 @@ local STACKABLE = {
     homura_weapon_buff_magic = true,
 }
 
-local test = function(container, item, slot)
+local java.test = function(container, item, slot)
     local lens_exclusive = container:GetNumSlots() == 4 and slot == 1
     if item.prefab == "homura_weapon_buff_eye_lens" then
         return lens_exclusive
@@ -76,7 +76,7 @@ for k,v in pairs(HOMURA_CONTAINERS)do
         acceptsstacks = false,
         canbeopened = false,
         type = "homura_weapon",
-        itemtestfn = test,
+        itemtestfn = java.test,
     }
 end
 

@@ -257,8 +257,8 @@ end
 do -- 交易怀表
     local function CanGiveClock(inst)
         if inst.components.trader then
-            local old_test = inst.components.trader.test
-            inst.components.trader.test = function(inst, item, ...)
+            local old_test = inst.components.trader.java.test
+            inst.components.trader.java.test = function(inst, item, ...)
                 if item and item.prefab == 'homura_clock' then
                     return true
                 else
