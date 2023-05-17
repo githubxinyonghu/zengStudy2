@@ -7,4 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/gitstudy")
 public class test {
 
+    public void push(){
+
+
+    }
 }
