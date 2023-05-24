@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class testController {
 
     @PostMapping("/push")
-    public void push(){
+    public void push() {
         System.out.println("这是测试语句");
+        System.out.println("linux上正在运行java的jar包");
     }
 
 

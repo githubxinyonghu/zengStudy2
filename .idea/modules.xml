@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/gitspringboot/gitspringboot.iml" filepath="$PROJECT_DIR$/gitspringboot/gitspringboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/zengStudy2.iml" filepath="$PROJECT_DIR$/.idea/zengStudy2.iml" />
     </modules>
   </component>
